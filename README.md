@@ -1,4 +1,4 @@
-# Real-Time Messaging Platform — Reference System Design and Prototype
+# Real-Time Messaging Platform — Chat System Design: WebSockets, Delivery Receipts and Presence
 
 [![CI](https://github.com/shivkumarsinghsky/realtime-messaging-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/shivkumarsinghsky/realtime-messaging-platform/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
