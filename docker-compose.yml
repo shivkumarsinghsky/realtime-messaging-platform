@@ -1,0 +1,8 @@
+# Single gateway prototype (in-process registry and bus). docker compose up -d --build
+# Connect: ws://localhost:8000/ws?token=token-alice  (dev users: alice, bob, carol, dave)
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports: ["${API_PORT:-8000}:8000"]
